@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+
+}
+
+.headline {
+    padding: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin-top: 0;
+    background: black;
+    padding: 10px;
+    height: 50px;
+}
+
+
+.headline-text {
+
+    text-transform: uppercase;
+    color: lightblue;
+}
+
+.main-block {
+
+  width: 80%;
+  height: 1000px;
+  background-color: DarkGrey;
+  float: center;
+  margin: 0 auto;
+}
+
+.field-request {
+    width: 60%
+    float: center;
+    margin: 0 auto;
+    background-color: Yellow;
+}
+
+.ans-string {
+
+    border: 5px solid red;
+
+}
+
+
+.custom-table-td {
+    border-color: solid black;
+    border-width: 3px;
+    background: white;
+    padding: 10px 20px;
+}
+
+
+
+
+.custom-table {
+
+}
+
+.table-div {
+
+
+}
+
+.new-div {
+    background-color: white;
+    weight: 40%
+    height: 80%;
+    border-width: 10px;
+    border-color: solid red;
+    float: center;
+
+}
+
+.div-message {
+
+    float: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+

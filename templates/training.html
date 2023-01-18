@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="new-div">
+    <h1>Вася</h1>
+    <form action="/" method="post">
+        {{ form.hidden_tag() }}
+        <p class="field-request">
+            {{ form.request.label }}<br>
+            {{ form.request(class="form-control", type="text") }}<br>
+        </p>
+        <div class="div-message">{{ message }}</div>
+    </form>
+</div>
+<div class="table-div">
+    <table class="custom-table>">
+        {% for data in answer %}
+        <TR>
+            {% for item in data %}
+            <TD class="custom-table-td">{{ item }}</TD>
+            {% endfor %}
+        </TR>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
